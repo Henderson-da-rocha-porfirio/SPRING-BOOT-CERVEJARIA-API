@@ -37,9 +37,9 @@
 		<!-- AWS SDK - S3 -->
 		<aws-java-sdk-s3.version>1.10.75.2</aws-java-sdk-s3.version>
 
-		<!-- JasperReports -->
+	<!--	&lt;!&ndash; JasperReports &ndash;&gt;
 		<jasperreports.version>6.3.0</jasperreports.version>
-		<jasperreports-fonts.version>6.0.0</jasperreports-fonts.version>
+		<jasperreports-fonts.version>6.0.0</jasperreports-fonts.version>-->
 	</properties>
 
 	<dependencies>
@@ -53,10 +53,10 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>nz.net.ultraq.thymeleaf</groupId>
 			<artifactId>thymeleaf-layout-dialect</artifactId>
-		</dependency>
+		</dependency>-->
 
 		<dependency>
 			<groupId>com.github.mxab.thymeleaf.extras</groupId>
@@ -117,7 +117,7 @@
 			<version>${aws-java-sdk-s3.version}</version>
 		</dependency>
 
-		<!-- JasperReports -->
+	<!--	&lt;!&ndash; JasperReports &ndash;&gt;
 		<dependency>
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
@@ -130,7 +130,7 @@
 			<version>${jasperreports-fonts.version}</version>
 			<scope>compile</scope>
 		</dependency>
-
+-->
 		<!-- EhCache -->
 		<dependency>
 			<groupId>org.ehcache</groupId>
