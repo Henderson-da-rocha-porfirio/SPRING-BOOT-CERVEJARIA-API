@@ -1,3 +1,0 @@
-ALTER TABLE cliente
-MODIFY email VARCHAR(60) NOT NULL;
-
